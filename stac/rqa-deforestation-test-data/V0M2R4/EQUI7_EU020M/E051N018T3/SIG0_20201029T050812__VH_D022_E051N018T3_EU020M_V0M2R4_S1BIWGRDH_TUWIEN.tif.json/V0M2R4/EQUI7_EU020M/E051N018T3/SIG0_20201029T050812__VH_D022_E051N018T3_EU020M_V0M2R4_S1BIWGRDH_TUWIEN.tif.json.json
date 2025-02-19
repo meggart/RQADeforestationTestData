@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "V0M2R4/EQUI7_EU020M/E051N018T3/SIG0_20201029T050812__VH_D022_E051N018T3_EU020M_V0M2R4_S1BIWGRDH_TUWIEN.tif.json",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5255000.0,
+          2031510.0
+        ],
+        [
+          5255000.0,
+          2032990.0
+        ],
+        [
+          5256000.0,
+          2032990.0
+        ],
+        [
+          5256000.0,
+          2031510.0
+        ],
+        [
+          5255000.0,
+          2031510.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    5255000.0,
+    2031510.0,
+    5256000.0,
+    2032990.0
+  ],
+  "properties": {
+    "abs_orbit_number": "24023",
+    "border_noise_removed": "True",
+    "creation_date": "2021-03-08 11:29:04",
+    "creator": "gfm_ops",
+    "dem_source": "/eodc/private/jrc_gfm/gfm_scratch/copdem/CopDEM30m_global_mosaic.tif",
+    "egm_applied": "False",
+    "encoding_info": "Values were multiplied by 10. No data value was set to -9999.",
+    "mode": "IW",
+    "modification_date": "2022-09-11 10:01:52",
+    "orbit_file_type": "POEORB",
+    "parent": "S1B_IW_GRDH_1SDV_20201029T050812_20201029T050837_024023_02DA93_30E1.zip",
+    "polarisation": "VH",
+    "rel_orbit_number": "22",
+    "run_number": "4",
+    "satellite_id": "S1B",
+    "sensing_date": "2020-10-29 05:08:12",
+    "slice_gap_filled": "True",
+    "slice_overlap_removed": "False",
+    "snap_version": "7.0",
+    "spatial_filter": "none",
+    "thermal_noise_removed": "True",
+    "value_info": "Sigma nought radar backscatter coefficient in dB.",
+    "worker_git_commit": "none",
+    "worker_git_tag": "from v0.2.3 to v0.2.4",
+    "worker_name": "s1_sigma",
+    "wrapper_git_commit": "none",
+    "wrapper_git_tag": "v0.1.4",
+    "wrapper_name": "sentinel_1_reprocessing",
+    "AREA_OR_POINT": "Area",
+    "datetime": "2020-10-29T05:08:12Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../../../../../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../../../../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "../../../../../../../../../V0M2R4/EQUI7_EU020M/E051N018T3/V0M2R4/EQUI7_EU020M/E051N018T3/SIG0_20201029T050812__VH_D022_E051N018T3_EU020M_V0M2R4_S1BIWGRDH_TUWIEN.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "collection": "rqa-deforestation-test-data"
+}
